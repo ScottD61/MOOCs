@@ -1,0 +1,17 @@
+{
+    "contents" : "#Time series challenge\n\n#Import forecast library\nlibrary(forecast)\n#Use airpassengers dataset\nAirData <- AirPassengers\n#Plot with seasonplot function\nseasonplot(AirData, year.labels = TRUE, col = c(2, 4), labelgap = 0.35,\n           type = \"l\", cex = 0.75, main = \"Seasonal plot of dataset AirPassengers\")",
+    "created" : 1476246237751.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3908571215",
+    "id" : "AAE776B7",
+    "lastKnownWriteTime" : 1476247377,
+    "path" : "~/MOOCs/Udemy-R_Timeseries/Season Challenge.R",
+    "project_path" : "Season Challenge.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
