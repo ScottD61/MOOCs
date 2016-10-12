@@ -1,0 +1,17 @@
+{
+    "contents" : "#Decomposing challenge\n\n#Air passenget dataset\nAirData <- AirPassengers\n#Decompose data\ndecom <- decompose(AirData)\n#Plot decomposed data\nplot(decom)\n#Add trend and seasonality together\nmydata <- decom$seasonal + decom$trend\n#Plot trend and seasality data\nplot(mydata)",
+    "created" : 1476244437419.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1824830292",
+    "id" : "44240A7B",
+    "lastKnownWriteTime" : 1476245419,
+    "path" : "~/MOOCs/Udemy-R_Timeseries/Decomposition Challenge.R",
+    "project_path" : "Decomposition Challenge.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
