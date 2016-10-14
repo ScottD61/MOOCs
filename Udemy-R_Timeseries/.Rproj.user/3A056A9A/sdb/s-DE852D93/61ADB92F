@@ -1,0 +1,17 @@
+{
+    "contents" : "#MTS challenge\n\n#Convert EuStockMarkets vector into dataframe\nmarket <- data.frame(EuStockMarkets)\nstr(market)\n#Summary of dataset\nsummary(market)\n#Get class of dataset\nclass(market)\n\n#Feature engineering\n#DAX - SMI\nnew <- market$DAX - market$SMI\n#Plot new variable\nplot(new, type = 'l')\npar(new = T)\nplot(market$DAX, axes = F, ylab = \"\", col = \"green\", type = 'l')\npar(new = T)\nplot(market$SMI, axes = F, ylab = \"\", col = \"red\", type = 'l')\npar(new = F)\n\n\n",
+    "created" : 1476418246109.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4040552819",
+    "id" : "61ADB92F",
+    "lastKnownWriteTime" : 1476420549,
+    "path" : "~/MOOCs/Udemy-R_Timeseries/MTS Challenge.R",
+    "project_path" : "MTS Challenge.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
