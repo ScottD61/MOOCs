@@ -1,4 +1,5 @@
 {
+    "collab_server" : "",
     "contents" : "#Challenge - time series formatting\n#Creating a ts object\n#Set seed\nset.seed(4)\n#Create cumulative sum of normal distribution\nx = cumsum(rnorm(n = 450))\n#Add a time component starting November 1914\nxt = ts(x, start = c(1914, 11), frequency = 12)\n#Plot data\nplot(xt)\n#Extra - use lattice package\nlibrary(lattice)\nxyplot.ts(xt)\n\n",
     "created" : 1476213385071.000,
     "dirty" : false,
@@ -7,11 +8,14 @@
     "hash" : "732513319",
     "id" : "14EF4F11",
     "lastKnownWriteTime" : 1476214900,
+    "last_content_update" : 0,
     "path" : "~/MOOCs/Udemy-R_Timeseries/Format Challenge.R",
     "project_path" : "Format Challenge.R",
     "properties" : {
         "tempName" : "Untitled1"
     },
+    "relative_order" : 0,
     "source_on_save" : false,
+    "source_window" : "",
     "type" : "r_source"
 }
